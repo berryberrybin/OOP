@@ -9,5 +9,10 @@ public abstract class Computer {
     public void turnOff(){
         System.out.println("전원을 끕니다.");
     }
-
+    public void run(){
+        turnOn();
+        display();
+        typing();
+        turnOff();
+    }
 }

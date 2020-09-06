@@ -6,6 +6,7 @@ public class ComputerTest {
         Computer c2 = new DeskTop();
         //Computer c3 = new NoteBook(); 인스턴스 생성  불가
         Computer c4 = new MyNoteBook();
-
+        c2.run();
+        c4.run();
     }
 }
